@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  gap: 1rem;
+  position:relative;
+  margin-top: 160px; /* This will push it below the company name header */
+  margin-left: 0rem; /* Align with the sidebar width */
+  background-color: #11a6dc;
+  height: 80px; /* Adjust based on your design */
+  align-items: center;
+  z-index: 998; /* Ensure it is above the main content but under the header */
+  
+}
+
+.navbar a {
+  display: block;
+  color: #131313;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: large;
+}
+
+.navbar a:hover {
+  background-color: #0b1262;
+  color: #ebebeb;
+}
