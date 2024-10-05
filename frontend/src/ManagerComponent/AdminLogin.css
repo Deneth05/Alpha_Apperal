@@ -1,0 +1,82 @@
+/* AdminLogin.css */
+
+
+.hr-login-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    width: 520px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6ecdea, #8f94fb); /* Nice gradient background */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.hr-login-form h2 {
+    color: #f1f6f8;
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+}
+
+.hr-login-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+    text-align: left;
+}
+
+.hr-login-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+.hr-login-form input[type="text"]:focus {
+    outline: none;
+    border-color: #6a82fb;
+    box-shadow: 0 0 8px rgba(106, 130, 251, 0.3);
+}
+
+.hr-login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6a82fb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hr-login-form button:hover {
+    background-color: #0662ff;
+}
+
+.hr-login-form button:active {
+    transform: translateY(2px);
+}
+
+.hr-login-form p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 16px;
+}

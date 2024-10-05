@@ -1,0 +1,122 @@
+/* traindetails.css */
+
+/* Main container */
+#train-showuserdetails {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9fc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-left: 15%;
+}
+
+/* Page title */
+#train-showuserdetails h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #5d8aa8;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #5d8aa8;
+  color: #ffffff;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #e9f0f7;
+}
+
+/* Action buttons styling */
+table td a {
+  color: #3498db;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+table td a:hover {
+  color: #217dbb;
+}
+
+table td button {
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+table td button:hover {
+  background-color: #c0392b;
+}
+
+/* Training schedule details styling */
+#train-body td {
+  color: #555;
+}
+
+#train-body td a, #train-body td button {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  #train-showuserdetails {
+      padding: 10px;
+  }
+
+  table th, table td {
+      padding: 10px 8px;
+      font-size: 0.95em;
+  }
+
+  #train-showuserdetails h2 {
+      font-size: 2em;
+  }
+}
+
+/* Print styling */
+@media print {
+  #train-showuserdetails a, #train-showuserdetails td button {
+      display: none;
+  }
+
+  #train-showuserdetails {
+      background-color: #fff;
+      box-shadow: none;
+  }
+
+  #train-showuserdetails h2 {
+      color: #333;
+  }
+}

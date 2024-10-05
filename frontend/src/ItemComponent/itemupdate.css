@@ -1,0 +1,87 @@
+/* itemupdate.css */
+
+/* Container Styling */
+#employee-item-update {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title Styling */
+#employee-item-update h2 {
+  text-align: center;
+  color: #45a3eb;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+#employee-item-update label {
+  display: block;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Input Field Styling */
+#employee-item-update input[type="text"],
+#employee-item-update input[type="file"],
+#employee-item-update input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+/* Hover effect on input fields */
+#employee-item-update input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error Message Styling */
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Button Styling */
+#employee-update-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button Hover Effect */
+#employee-update-btn:hover {
+  background-color: #218838;
+}
+
+/* Small devices adjustments */
+@media (max-width: 768px) {
+  #employee-item-update {
+      width: 90%;
+      padding: 15px;
+  }
+  
+  #employee-item-update h2 {
+      font-size: 1.25rem;
+  }
+}

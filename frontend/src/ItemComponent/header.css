@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    gap: 1rem;
+    background-color: #1ab7f0;
+    overflow: hidden;
+    height: 80px;
+    margin-top: 0px;
+    align-items:center;
+    margin-left: 14rem;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #131313;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: large;
+    
+  }
+  
+  .navbar a:hover {
+    background-color: #0b1262;
+    color: #ebebeb;
+  }
+  
